@@ -1,0 +1,15 @@
+﻿  Population.cpp
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(91,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(165,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(200,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(203,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(216,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(241,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(243,22): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(371,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(425,22): warning C4553: '==': result of expression not used; did you intend '='?
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(428,22): warning C4553: '==': result of expression not used; did you intend '='?
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(446,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(454,21): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Genetic_algorithm\Genetic_algorithm\Population.cpp(531,42): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+  Genetic_algorithm.vcxproj -> D:\DDocuments\C++\HE code\Genetic_algorithm\Debug\Genetic_algorithm.exe
