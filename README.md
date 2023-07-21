@@ -10,7 +10,8 @@ $$\begin{equation}f_2 = f(x)=x^2 \end{equation}$$
 
 $$\begin{equation}f_3 = f(x)=1+T-x \end{equation}$$
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/d0b65cee-c02a-496d-aa74-45938655356a)
+![Screenshot from 2023-07-21 10-54-33](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/79030ee8-3007-48dc-b96b-cc710b4140f2)
+
 
 For this report three types of selection processes have been selected: Roulette wheel that gives each chromosome in a population a slice of a wheel equal to that data’s fitness ratio see (equation 4).
 
@@ -18,8 +19,9 @@ $$\begin{equation}\text{fitness ratio} = \frac{f}{\sum f} \end{equation}$$
 
 Where ƒ is the corresponding fitness, a random number is selected if that number falls within that chromosome’s fitness ratio it is selected and according to Negnevitsky (2011) roulette-wheel is the most used selection, Tournament selection bases its selection on picking the top four chromosomes based on its fitness-ratio, then has a semi-final playoff with winners picked by random number, Rank selection is similar to roulette wheel except it gives all chromosome’s equal probability. The results from our tests see (figure 2) do not show any significant differences between the fitness types however the combination of a roulette wheel and the fitness type f1 seem to combine well in creating a longer-lasting algorithm.
 
+![Screenshot from 2023-07-21 10-57-27](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/1eb61fa5-aaba-4aab-8846-e42cc8115ac7)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/f1d903e9-d9c0-459a-8914-5b3ebbd4841d)
+
 
 Also tested was the effects the crossover rate and mutation rate change had on our algorithm; crossover rate pc is the probability that the parent
 chromosomes picked from the selection process have their chromosomes split up to create a child chromosome ready for the next generation, if a
@@ -27,7 +29,8 @@ chromosome does not crossover the chromosomes are cloned from the parents to the
 and can help stop stagnation in the data Buontempo (2019). The results from the tests show that raising the rates seems to speed up the algorithm.
 However overall, the results do not show any significant convergence of data see (appendix Genetic algorithm technical documentation) this perhaps because of the way the data obtained from the algorithm further study could be done using the Gaussian peak function for better results Negnevitsky (2011: p228).
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/53de63e6-9582-4456-8757-6ec445efdf85)
+![Screenshot from 2023-07-21 10-58-32](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/035e8927-70d5-46d8-997e-02a08db68c28)
+
 
 Genetic algorithms can be used in many real-world situations such as Xiangliu et al (2021) discusses how a genetic algorithm can help in the creating and maintenance of class scheduling at a University, the author states that the workload can no longer be done manually as there are too many students, teacher and classrooms where changes happen too often, a genetic algorithm was created to help in automatic search function of data by determining a fitness function on specific data such as task management, preparation of class, class scheduling and course resource.
 Genetic algorithms can also be used for: Data mining Li et al (2020), smart traffic lights, load balancing and task scheduling of cloud computing and a travelling salesman Alam et al (2020).
@@ -40,19 +43,26 @@ Buontempo, F. (2019). Genetic algorithms and machine learning fo programmers: Cr
 Goldberg, D, E. (1989). Genetic algorithms in search optimisation and machine learning. United states of America: Addison-Wesley publishing company Inc.
 Xiangliu Chen, Xiao-Guang Yue, Rita Yi Man Li, Zhumadillayeva, A., & Liu, R. (2021). Design and Application of an Improved Genetic Algorithm to a Class Scheduling System. International Journal of Emerging Technologies in Learning, 16(1), 44–59. https://doi.org/10.3991/ijet.v16i01.18225
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/2d3010c8-3796-4000-b7ae-786bac460cbf)
+![Screenshot from 2023-07-21 11-03-37](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/22698f66-7a11-44be-97cb-f257254a5247)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/93abc7ad-9503-4796-bbc0-f9a46fc37eb0)
+![Screenshot from 2023-07-21 11-04-06](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/9bcce730-79de-449d-a710-890172bf76ab)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/3a05ed9c-3d97-4ccb-9f95-9b4d8edbb490)
+![Screenshot from 2023-07-21 11-04-56](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/4662b86d-27f9-40f4-8ce3-ed59bb382c07)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/49aa04a0-fc68-402c-be01-1eb8d5667131)
+![Screenshot from 2023-07-21 11-05-19](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/e7d7dfdc-4201-43a5-9576-e1e8346e603c)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/01722527-705e-4607-b1da-fb377e1534ca)
+![Screenshot from 2023-07-21 11-05-50](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/efdaa675-5983-4945-a3a1-71636789414e)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/64b1b975-61ac-47bc-a1ac-970aa4724389)
+![Screenshot from 2023-07-21 11-06-15](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/aeff8f27-8d35-4fb5-bdaf-781e796ddea4)
 
-![image](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/2109f7fc-565d-4662-bcc7-ae4287fc5abb)
+![Screenshot from 2023-07-21 11-06-31](https://github.com/RossErskine/Genetic-Algorithm/assets/46631932/72d1ae75-2445-4167-bfb4-dd18c064ae9f)
+
+
+
+
+
+
+
 
 
 
